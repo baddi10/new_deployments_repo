@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@SpringBootApplication
+//@SpringBootApplication
 @Controller
 public class New {
     public static void main(String[] args) {
 
-        SpringApplication.run(NewjarsApplication.class, args);
+        //SpringApplication.run(NewjarsApplication.class, args);
     }
 
     @GetMapping("/")
